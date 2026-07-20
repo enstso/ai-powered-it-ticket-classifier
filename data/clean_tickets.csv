@@ -1,0 +1,9 @@
+ticket_id,text,category,priority,text_length
+1,Je ne peux plus me connecter au VPN,network,high,35
+2,Mon mot de passe est expiré,access,medium,27
+3,L'application se ferme au démarrage,software,high,35
+4,J'ai reçu un email contenant un lien suspect,security,high,44
+5,La connexion au réseau distant est très lente,network,medium,45
+6,Je souhaite réinitialiser mon mot de passe,access,low,42
+7,Le logiciel affiche une erreur au lancement,software,medium,43
+8,Une connexion inconnue apparaît sur mon compte,security,high,46
