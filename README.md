@@ -46,6 +46,43 @@ The application is designed to:
 - pytest
 - joblib or pickle
 
+## Glossary of Technical Terms
+
+- **Accuracy:** the percentage of predictions that are correct overall.
+- **API:** an interface that lets another program send data to the application and receive a response. In this project, the API receives a ticket text and returns a predicted category.
+- **Baseline:** a very simple reference model used for comparison. If the trained model is not better than the baseline, it is probably not useful.
+- **Category distribution:** the number of tickets available for each category. A very uneven distribution can make the model favor the most common category.
+- **Classification model:** a machine learning model that chooses one label from a fixed list of possible labels.
+- **Confusion matrix:** a table that shows which categories were predicted correctly and which categories were confused with others.
+- **Dataset:** the collection of examples used by the project. Here, each example is an IT ticket with its text, category, and priority.
+- **Docker:** a tool used to package the application and its dependencies so it can run in a consistent environment.
+- **Endpoint:** a URL exposed by an API. For example, `/predict` is the endpoint that returns a ticket prediction.
+- **F1-score:** a metric that combines precision and recall into one score. It is useful when both false positives and false negatives matter.
+- **False negative:** a mistake where the model fails to detect the correct category.
+- **False positive:** a mistake where the model predicts a category that is not actually correct.
+- **Flask:** a lightweight Python framework used to create web APIs.
+- **Human validation:** a manual review step used when the model is not confident enough about its prediction.
+- **Joblib / pickle:** Python tools used to save a trained model to a file and load it again later.
+- **Lemmatization:** reducing a word to its dictionary form. For example, "connected" and "connecting" can be reduced to "connect".
+- **Logistic Regression:** a common classification algorithm. Despite its name, it can be used to predict categories, not only numbers.
+- **Machine learning:** a way to build software that learns patterns from examples instead of relying only on hand-written rules.
+- **Multiclass classification:** classification with more than two possible categories. This project has four: `network`, `access`, `software`, and `security`.
+- **NLTK:** a Python library used for natural language processing tasks such as tokenization and stop word removal.
+- **Pandas:** a Python library used to load, inspect, clean, and transform tabular data.
+- **Pipeline:** a sequence of processing steps applied in order. In this project, text is transformed with TF-IDF and then passed to a classifier.
+- **Precision:** among the tickets predicted as a given category, the percentage that actually belong to that category.
+- **Prediction confidence:** the model's estimated certainty for a prediction. Low confidence can trigger human validation.
+- **Preprocessing:** cleaning and transforming text before it is given to the model.
+- **Pytest:** a Python tool used to run automated tests.
+- **Recall:** among the tickets that truly belong to a given category, the percentage correctly found by the model.
+- **Scikit-learn:** a Python library that provides machine learning models, evaluation metrics, and training utilities.
+- **Stemming:** reducing words to a shorter root form. It can help group similar words, but it can also remove useful meaning.
+- **Stratify:** an option used during the train/test split to keep similar category proportions in both datasets.
+- **Stop words:** common words such as "the", "is", or "and" that are often removed during text preprocessing.
+- **TF-IDF:** a text representation method that gives more weight to words that are important in a ticket but not too common across all tickets.
+- **Tokenization:** splitting text into smaller pieces, usually words.
+- **Train/test split:** separating the dataset into one part for training and another part for evaluation.
+
 ## Expected Project Structure
 
 ```text
