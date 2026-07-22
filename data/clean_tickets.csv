@@ -7,3 +7,53 @@ ticket_id,text,category,priority,text_length
 6,Je souhaite réinitialiser mon mot de passe,access,low,42
 7,Le logiciel affiche une erreur au lancement,software,medium,43
 8,Une connexion inconnue apparaît sur mon compte,security,high,46
+9,Le Wi-Fi se déconnecte toutes les cinq minutes,network,high,46
+10,Je n'arrive pas à accéder au dossier partagé,access,medium,44
+11,Microsoft Teams ne démarre plus,software,medium,31
+12,J'ai reçu une demande inhabituelle de validation de connexion,security,high,61
+13,Impossible de joindre le serveur interne,network,high,40
+14,Mon compte utilisateur est verrouillé,access,high,37
+15,La mise à jour du logiciel reste bloquée,software,medium,40
+16,Un fichier joint suspect a été ouvert par erreur,security,high,48
+17,La connexion Ethernet ne fonctionne plus,network,high,40
+18,Je n'ai plus les droits sur une application,access,medium,43
+19,L'application affiche un écran blanc,software,medium,36
+20,Mon antivirus signale une menace,security,high,32
+21,Le réseau Wi-Fi de l'entreprise n'apparaît pas,network,medium,46
+22,Je souhaite obtenir un accès au CRM,access,low,35
+23,Le navigateur se ferme sans message d'erreur,software,medium,44
+24,Je pense que mon compte a été compromis,security,high,39
+25,Le partage de connexion ne fonctionne pas,network,medium,41
+26,L'authentification à deux facteurs ne fonctionne plus,access,high,53
+27,Le logiciel de comptabilité est très lent,software,medium,41
+28,J'ai détecté une activité inhabituelle sur ma messagerie,security,high,56
+29,La connexion au serveur de fichiers est interrompue,network,high,51
+30,Je ne peux pas modifier un document partagé,access,medium,43
+31,Une erreur apparaît lors de l'installation du programme,software,medium,55
+32,Un collègue a reçu un message envoyé depuis mon compte,security,high,54
+33,Le VPN se déconnecte après quelques minutes,network,high,43
+34,Je souhaite créer un nouveau compte utilisateur,access,low,47
+35,L'application ne répond plus après la connexion,software,high,47
+36,Une fenêtre demande mes identifiants de manière répétée,security,high,55
+37,L'imprimante réseau est inaccessible,network,medium,36
+38,Je n'arrive pas à ouvrir ma session Windows,access,high,43
+39,Le logiciel affiche des caractères illisibles,software,low,45
+40,J'ai cliqué sur un lien de phishing,security,high,35
+41,La connexion internet est instable dans la salle de réunion,network,medium,59
+42,Mon badge ne permet plus d'accéder au bâtiment,access,high,46
+43,Le programme plante pendant l'enregistrement,software,high,44
+44,Un appareil inconnu est connecté à mon compte,security,high,45
+45,Le serveur DNS ne répond pas,network,high,28
+46,Je souhaite changer les permissions d'un dossier,access,medium,48
+47,La licence du logiciel n'est plus reconnue,software,medium,42
+48,J'ai reçu plusieurs alertes de connexion échouée,security,high,48
+49,Je ne peux pas accéder à l'intranet,network,high,35
+50,Mon code de vérification n'arrive pas,access,medium,37
+51,Le logiciel ne reconnaît pas le fichier importé,software,medium,47
+52,Un programme inconnu s'est installé sur mon poste,security,high,49
+53,Le débit du réseau est très faible,network,medium,34
+54,Je ne peux plus accéder à ma boîte mail,access,high,39
+55,La fenêtre de l'application reste figée,software,medium,39
+56,Mon pare-feu bloque une application autorisée,network,medium,45
+57,Le point d'accès Wi-Fi redémarre sans arrêt,network,high,43
+58,Le câble réseau est branché mais aucune connexion n'est détectée,network,medium,64
