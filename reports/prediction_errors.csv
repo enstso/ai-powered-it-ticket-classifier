@@ -1,0 +1,13 @@
+text,expected_category,predicted_category
+Une connexion inconnue apparaît sur mon compte,security,network
+Microsoft Teams ne démarre plus,software,network
+Un fichier joint suspect a été ouvert par erreur,security,software
+Je n'ai plus les droits sur une application,access,software
+Mon antivirus signale une menace,security,network
+L'authentification à deux facteurs ne fonctionne plus,access,network
+J'ai détecté une activité inhabituelle sur ma messagerie,security,network
+L'application ne répond plus après la connexion,software,network
+Une fenêtre demande mes identifiants de manière répétée,security,software
+J'ai reçu plusieurs alertes de connexion échouée,security,network
+Je ne peux pas accéder à l'intranet,network,access
+Mon pare-feu bloque une application autorisée,network,software
